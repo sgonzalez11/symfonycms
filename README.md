@@ -1,3 +1,9 @@
+Custom Symfony2 CMS
+===================
+
+Is just a project for learning Symfony 2 and your capabilities to manage content. 
+Is based on the tutsplus tutorial : "[**Build a CMS in Symfony 2**][14]"
+
 Symfony Standard Edition
 ========================
 
@@ -66,3 +72,4 @@ Enjoy!
 [10]: https://symfony.com/doc/2.8/cookbook/email.html
 [11]: https://symfony.com/doc/2.8/cookbook/logging/monolog.html
 [13]: https://symfony.com/doc/2.8/bundles/SensioGeneratorBundle/index.html
+[14]: http://code.tutsplus.com/courses/build-a-cms-in-symfony-2
