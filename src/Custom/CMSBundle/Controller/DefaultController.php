@@ -8,6 +8,8 @@ class DefaultController extends Controller
 {
     public function indexAction()
     {
-        return $this->render('CustomCMSBundle:Default:index.html.twig');
+        $em = $this->getDoctrine()->getManager();
+        $pages = $em->getRepository('CustomCMSBundle:Page')->findAll();
+        return $this->render('CustomCMSBundle:Default:index.html.twig', array('pages'=>$pages));
     }
 }
